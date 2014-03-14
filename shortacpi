@@ -1,0 +1,1 @@
+acpi | sed 's/Battery .: .*harging, //' | sed 's/until charged/\/\\/' | sed 's/remaining/\\\//'
